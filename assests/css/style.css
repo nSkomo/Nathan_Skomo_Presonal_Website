@@ -1,0 +1,33 @@
+/* for mobile */
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+/* tablet*/
+@media only screen and (min-width: 600px) {
+    .col-tablet-1 {width: 10%}
+    .col-tablet-2 {width: 20%}
+    .col-tablet-3 {width: 30%}
+    .col-tablet-4 {width: 40%}
+    .col-tablet-5 {width: 50%}
+    .col-tablet-6 {width: 60%}
+    .col-tablet-7 {width: 70%}
+    .col-tablet-8 {width: 80%}
+    .col-tablet-9 {width: 90%}
+    .col-tablet-10 {width: 100%}
+}
+
+/* computer*/
+@media only screen and (min-width: 768px) {
+    .col-desktop-1 {width: 10%}
+    .col-desktop-2 {width: 20%}
+    .col-desktop-3 {width: 30%}
+    .col-desktop-4 {width: 40%}
+    .col-desktop-5 {width: 50%}
+    .col-desktop-6 {width: 60%}
+    .col-desktop-7 {width: 70%}
+    .col-desktop-8 {width: 80%}
+    .col-desktop-9 {width: 90%}
+    .col-desktop-10 {width: 100%}
+}
